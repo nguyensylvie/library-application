@@ -1,6 +1,8 @@
 build:
-  docker:
-    web: ./back
-  tasks:
-    - name: "mvn install"
-      command: "mvn install"
+  language: java
+  jdk:
+    - openjdk-11
+
+cache:
+  directories:
+    - $HOME/.m2
