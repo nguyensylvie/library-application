@@ -1,3 +1,6 @@
 build:
   docker:
     web: ./back
+  tasks:
+    - name: "mvn install"
+      command: "mvn install"
