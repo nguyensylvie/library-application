@@ -1,8 +1,0 @@
-build:
-  language: java
-  jdk:
-    - openjdk-11
-
-cache:
-  directories:
-    - $HOME/.m2
